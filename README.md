@@ -4,9 +4,13 @@ This is a sample code collection of [puppeteer](https://developers.google.com/we
 
 ## Sample List
 
+- browser
+  - [.on("targetcreated")](./samples/browser/browserOnTargetCreated.js)
 - page
-    - [.$() and .getProperty()](./samples/page/getBodyElement.js)
-    - [.content()](./samples/page/doContentMethod.js)
+  - [.$() and .getProperty()](./samples/page/getBodyElement.js)
+  - [.content()](./samples/page/doContentMethod.js)
+- Common use cases
+  - [control a new tab](./samples/controlNewTab.js)
 
 ## Usage
 
