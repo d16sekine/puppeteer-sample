@@ -13,7 +13,7 @@ async function main(){
 
     const body = await page.$("body")
 
-    var data = await (await body.getProperty('textContent')).jsonValue();
+    const data = await (await body.getProperty('textContent')).jsonValue();
 
     console.log(data)
 
